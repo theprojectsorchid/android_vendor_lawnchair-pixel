@@ -16,8 +16,6 @@ android_app_import {
         "Home",
         "Launcher2",
         "Launcher3",
-        "Launcher3QuickStep",
-        "NexusLauncherRelease",
     ],
 
     dex_preopt: {
@@ -52,4 +50,13 @@ android_app_import {
         },
         product_specific: true,
         optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
+}
+
+android_app_import {
+    name: "delta",
+    dex_preopt: {
+        enabled: false,
+    },
+    apk: "delta.apk",
+    presigned: true,
 }

@@ -8,4 +8,5 @@ PRODUCT_PACKAGES += \
     LawnchairOverlay \
     Lawnicons \
     lawnchair-hiddenapi-package-whitelist \
-    privapp-permissions-lawnchair
+    privapp-permissions-lawnchair \
+    delta
